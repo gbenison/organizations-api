@@ -1,3 +1,5 @@
+A sample flask application demonstrating querying a simple database
+with basic filtering and ordering exposed by an API
 
 Dependencies
 ------------
@@ -22,4 +24,9 @@ Import it with the following command:
 
 2) Start the API service
 
-<coming soon>
+  FLASK_APP=app.py flask run
+
+Usage
+-----
+
+curl localhost:5000
