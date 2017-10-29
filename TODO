@@ -1,0 +1,11 @@
+- Add some unit tests
+
+- Deduplicate results (perhaps given a group differing only by ID,
+  return just the one with the highest ID?)
+
+- Warn or error on invalid query parameters.  Right now these are
+  silently ignored (including misspellings; i.e. 'directoin=DSC'
+  has no effect)
+
+- Better validation for the csv import process (report on no. lines
+  imported; no. invalid lines; etc.)
