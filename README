@@ -1,0 +1,25 @@
+
+Dependencies
+------------
+
+python >= 2.7
+flask
+sqlite3
+
+Setup
+-----
+
+1) Build the database
+
+There must be a file named "organization_sample_data.csv" with the following format -
+﻿id,name,city,state,postal,category
+1,Michigan Science Center ,Detroit,MI,48202,Non-Profit
+...
+
+Import it with the following command:
+
+  sqlite3 < import.sqlite
+
+2) Start the API service
+
+<coming soon>

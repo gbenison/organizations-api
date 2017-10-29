@@ -1,0 +1,13 @@
+.open organizations.db
+create table organizations (
+  id int,
+  name text,
+  city text,
+  state text,
+  postal text,
+  category text
+);
+.mode csv
+.sep , \r
+.import organization_sample_data.csv organizations
+delete from organizations where category == 'category';
